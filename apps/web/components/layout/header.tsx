@@ -30,7 +30,7 @@ export function Header() {
           <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-primary-600">
             <BookOpen className="h-5 w-5 text-white" />
           </div>
-          <span className="text-xl font-bold text-gray-900">RUTA</span>
+          <span className="text-xl font-bold text-gray-900">Rutiva</span>
         </Link>
 
         {/* Desktop Navigation */}
