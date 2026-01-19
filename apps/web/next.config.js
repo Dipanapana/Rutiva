@@ -4,7 +4,7 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'ruta-content.s3.af-south-1.amazonaws.com',
+        hostname: 'rutiva-content.s3.af-south-1.amazonaws.com',
       },
       {
         protocol: 'https',
