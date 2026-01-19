@@ -9,7 +9,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'RUTA - Your Roadmap to Results',
+  title: 'Rutiva - Your Roadmap to Results',
   description:
     'CAPS-aligned study guides with detailed course breakdowns and personalized study timetables for South African learners.',
   keywords: [
@@ -22,19 +22,19 @@ export const metadata: Metadata = {
     'mathematics',
     'science',
   ],
-  authors: [{ name: 'RUTA Education' }],
+  authors: [{ name: 'Rutiva Education' }],
   openGraph: {
-    title: 'RUTA - Your Roadmap to Results',
+    title: 'Rutiva - Your Roadmap to Results',
     description:
       'CAPS-aligned study guides with detailed course breakdowns and personalized study timetables.',
-    url: 'https://ruta.co.za',
-    siteName: 'RUTA',
+    url: 'https://rutiva.co.za',
+    siteName: 'Rutiva',
     locale: 'en_ZA',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'RUTA - Your Roadmap to Results',
+    title: 'Rutiva - Your Roadmap to Results',
     description:
       'CAPS-aligned study guides with detailed course breakdowns and personalized study timetables.',
   },
