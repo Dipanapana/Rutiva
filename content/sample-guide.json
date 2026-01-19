@@ -328,8 +328,8 @@
   },
 
   "resources": {
-    "pdf_guide": "s3://ruta-content/math-gr10-t1-2025.pdf",
-    "answer_key": "s3://ruta-content/math-gr10-t1-2025-answers.pdf",
-    "formula_sheet": "s3://ruta-content/math-gr10-formula-sheet.pdf"
+    "pdf_guide": "s3://rutiva-content/math-gr10-t1-2025.pdf",
+    "answer_key": "s3://rutiva-content/math-gr10-t1-2025-answers.pdf",
+    "formula_sheet": "s3://rutiva-content/math-gr10-formula-sheet.pdf"
   }
 }
