@@ -5,7 +5,7 @@ from typing import Optional
 
 class Settings(BaseSettings):
     # App
-    APP_NAME: str = "RUTA"
+    APP_NAME: str = "Rutiva"
     APP_VERSION: str = "1.0.0"
     DEBUG: bool = False
     API_V1_PREFIX: str = "/api/v1"
@@ -17,8 +17,8 @@ class Settings(BaseSettings):
     REFRESH_TOKEN_EXPIRE_DAYS: int = 7
 
     # Database
-    DATABASE_URL: str = "postgresql+asyncpg://postgres:postgres@localhost:5432/ruta"
-    DATABASE_URL_SYNC: str = "postgresql://postgres:postgres@localhost:5432/ruta"
+    DATABASE_URL: str = "postgresql+asyncpg://postgres:postgres@localhost:5432/rutiva"
+    DATABASE_URL_SYNC: str = "postgresql://postgres:postgres@localhost:5432/rutiva"
 
     # Redis
     REDIS_URL: str = "redis://localhost:6379/0"
@@ -27,7 +27,7 @@ class Settings(BaseSettings):
     AWS_ACCESS_KEY_ID: Optional[str] = None
     AWS_SECRET_ACCESS_KEY: Optional[str] = None
     AWS_REGION: str = "af-south-1"
-    S3_BUCKET: str = "ruta-content"
+    S3_BUCKET: str = "rutiva-content"
 
     # AI Providers
     DEEPSEEK_API_KEY: Optional[str] = None
@@ -51,7 +51,7 @@ class Settings(BaseSettings):
     SMTP_PORT: int = 587
     SMTP_USER: Optional[str] = None
     SMTP_PASSWORD: Optional[str] = None
-    FROM_EMAIL: str = "noreply@ruta.co.za"
+    FROM_EMAIL: str = "noreply@rutiva.co.za"
 
     class Config:
         env_file = ".env"
