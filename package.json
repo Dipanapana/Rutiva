@@ -1,8 +1,8 @@
 {
-  "name": "ruta",
+  "name": "rutiva",
   "version": "1.0.0",
   "private": true,
-  "description": "RUTA - Your roadmap to results. CAPS-aligned study guides for South African learners.",
+  "description": "Rutiva - Your roadmap to results. CAPS-aligned study guides for South African learners.",
   "workspaces": [
     "apps/*",
     "packages/*"
