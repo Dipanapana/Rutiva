@@ -4,8 +4,8 @@ import json
 from app.core.config import settings
 
 
-# System prompt for RutaBot
-SYSTEM_PROMPT = """You are RutaBot, an AI tutor for South African learners following the CAPS curriculum.
+# System prompt for RutivaBot
+SYSTEM_PROMPT = """You are RutivaBot, an AI tutor for South African learners following the CAPS curriculum.
 
 CORE PRINCIPLES:
 1. GUIDE, don't give direct answers - use Socratic questioning
