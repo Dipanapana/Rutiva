@@ -53,6 +53,10 @@ class Settings(BaseSettings):
     SMTP_PASSWORD: Optional[str] = None
     FROM_EMAIL: str = "noreply@rutiva.co.za"
 
+    # SMS
+    SMS_API_KEY: Optional[str] = None
+    SMS_SENDER: str = "Rutiva"
+
     class Config:
         env_file = ".env"
         case_sensitive = True
