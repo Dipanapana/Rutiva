@@ -21,7 +21,7 @@ async def lifespan(app: FastAPI):
 
 app = FastAPI(
     title=settings.APP_NAME,
-    description="RUTA - Your roadmap to results. CAPS-aligned study guides for South African learners.",
+    description="Rutiva - Your roadmap to results. CAPS-aligned study guides for South African learners.",
     version=settings.APP_VERSION,
     lifespan=lifespan,
     docs_url="/api/docs" if settings.DEBUG else None,
