@@ -32,7 +32,7 @@ export function Footer() {
               <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-primary-600">
                 <BookOpen className="h-5 w-5 text-white" />
               </div>
-              <span className="text-xl font-bold">RUTA</span>
+              <span className="text-xl font-bold">Rutiva</span>
             </Link>
             <p className="text-gray-400 text-sm">
               Your roadmap to results. CAPS-aligned study guides with personalized
@@ -41,7 +41,7 @@ export function Footer() {
             <div className="space-y-2 text-sm text-gray-400">
               <div className="flex items-center space-x-2">
                 <Mail className="h-4 w-4" />
-                <span>hello@ruta.co.za</span>
+                <span>hello@rutiva.co.za</span>
               </div>
               <div className="flex items-center space-x-2">
                 <MapPin className="h-4 w-4" />
@@ -104,7 +104,7 @@ export function Footer() {
 
         {/* Bottom */}
         <div className="mt-12 border-t border-gray-800 pt-8 text-center text-sm text-gray-400">
-          <p>&copy; {new Date().getFullYear()} RUTA Education. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Rutiva Education. All rights reserved.</p>
           <p className="mt-2">
             Proudly South African | CAPS Aligned | Built for Success
           </p>
