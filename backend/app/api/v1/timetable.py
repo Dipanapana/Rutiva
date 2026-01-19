@@ -376,7 +376,7 @@ async def export_ical(
         content=ical_content,
         media_type="text/calendar",
         headers={
-            "Content-Disposition": f"attachment; filename=ruta-{timetable.product.sku}.ics"
+            "Content-Disposition": f"attachment; filename=rutiva-{timetable.product.sku}.ics"
         }
     )
 
@@ -389,10 +389,10 @@ def generate_ical(timetable: Timetable) -> str:
     lines = [
         "BEGIN:VCALENDAR",
         "VERSION:2.0",
-        "PRODID:-//RUTA//Study Timetable//EN",
+        "PRODID:-//Rutiva//Study Timetable//EN",
         "CALSCALE:GREGORIAN",
         "METHOD:PUBLISH",
-        f"X-WR-CALNAME:{timetable.title or 'RUTA Study Plan'}",
+        f"X-WR-CALNAME:{timetable.title or 'Rutiva Study Plan'}",
     ]
 
     time_mapping = {
@@ -428,7 +428,7 @@ def generate_ical(timetable: Timetable) -> str:
             f"UID:{event_uid}",
             f"DTSTART:{dt_start.strftime('%Y%m%dT%H%M%S')}",
             f"DTEND:{dt_end.strftime('%Y%m%dT%H%M%S')}",
-            f"SUMMARY:RUTA: {session.get('topic', 'Study Session')}",
+            f"SUMMARY:Rutiva: {session.get('topic', 'Study Session')}",
             f"DESCRIPTION:{description}",
             "END:VEVENT",
         ])
