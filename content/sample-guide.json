@@ -1,0 +1,335 @@
+{
+  "guide_id": "math-gr10-t1-2025",
+  "subject": "Mathematics",
+  "grade": 10,
+  "term": 1,
+  "year": 2025,
+  "caps_aligned": true,
+  "total_weeks": 10,
+  "total_study_hours": 45,
+
+  "overview": {
+    "description": "Complete Term 1 Mathematics guide covering Algebraic Expressions, Exponents, Number Patterns, and Equations",
+    "learning_outcomes": [
+      "Simplify algebraic expressions using factorisation",
+      "Apply exponent laws to simplify expressions",
+      "Identify and extend number patterns",
+      "Solve linear equations and inequalities"
+    ],
+    "prerequisites": ["Grade 9 Mathematics"],
+    "assessment_weighting": {
+      "tests": "40%",
+      "exam": "60%"
+    }
+  },
+
+  "units": [
+    {
+      "unit_number": 1,
+      "title": "Algebraic Expressions",
+      "caps_reference": "CAPS-MATH-10-T1-U1",
+      "duration_weeks": 3,
+      "estimated_hours": 13.5,
+
+      "topics": [
+        {
+          "topic_id": "alg-exp-01",
+          "title": "Revision of Grade 9 Algebra",
+          "week": 1,
+          "hours": 4.5,
+          "content_sections": [
+            {
+              "section": "1.1",
+              "title": "Simplifying Expressions",
+              "concepts": [
+                "Like and unlike terms",
+                "Adding and subtracting polynomials",
+                "Multiplying monomials and binomials"
+              ],
+              "worked_examples": 5,
+              "practice_problems": 15,
+              "difficulty": "foundation"
+            },
+            {
+              "section": "1.2",
+              "title": "Products and Factors",
+              "concepts": [
+                "FOIL method",
+                "Difference of squares",
+                "Perfect square trinomials"
+              ],
+              "worked_examples": 8,
+              "practice_problems": 20,
+              "difficulty": "core"
+            }
+          ],
+          "key_formulas": [
+            "(a + b)² = a² + 2ab + b²",
+            "(a - b)² = a² - 2ab + b²",
+            "a² - b² = (a + b)(a - b)"
+          ],
+          "common_mistakes": [
+            "Forgetting to distribute the negative sign",
+            "Confusing (a + b)² with a² + b²"
+          ],
+          "exam_tips": [
+            "Always check your factorisation by expanding",
+            "Look for common factors first"
+          ]
+        },
+        {
+          "topic_id": "alg-exp-02",
+          "title": "Factorisation",
+          "week": 2,
+          "hours": 4.5,
+          "content_sections": [
+            {
+              "section": "2.1",
+              "title": "Common Factor",
+              "concepts": ["HCF of terms", "Grouping terms"],
+              "worked_examples": 4,
+              "practice_problems": 12,
+              "difficulty": "foundation"
+            },
+            {
+              "section": "2.2",
+              "title": "Factorising Trinomials",
+              "concepts": [
+                "Trinomials of form x² + bx + c",
+                "Trinomials of form ax² + bx + c"
+              ],
+              "worked_examples": 6,
+              "practice_problems": 18,
+              "difficulty": "core"
+            },
+            {
+              "section": "2.3",
+              "title": "Sum and Difference of Cubes",
+              "concepts": [
+                "a³ + b³ = (a + b)(a² - ab + b²)",
+                "a³ - b³ = (a - b)(a² + ab + b²)"
+              ],
+              "worked_examples": 4,
+              "practice_problems": 10,
+              "difficulty": "extended"
+            }
+          ],
+          "key_formulas": [
+            "a³ + b³ = (a + b)(a² - ab + b²)",
+            "a³ - b³ = (a - b)(a² + ab + b²)"
+          ],
+          "common_mistakes": [
+            "Not checking for common factors first",
+            "Sign errors in sum/difference of cubes"
+          ],
+          "exam_tips": [
+            "Always extract common factors before other methods",
+            "Check your answer by expanding"
+          ]
+        },
+        {
+          "topic_id": "alg-exp-03",
+          "title": "Algebraic Fractions",
+          "week": 3,
+          "hours": 4.5,
+          "content_sections": [
+            {
+              "section": "3.1",
+              "title": "Simplifying Algebraic Fractions",
+              "concepts": [
+                "Factorising numerator and denominator",
+                "Cancelling common factors"
+              ],
+              "worked_examples": 5,
+              "practice_problems": 15,
+              "difficulty": "core"
+            },
+            {
+              "section": "3.2",
+              "title": "Operations with Algebraic Fractions",
+              "concepts": [
+                "Addition and subtraction",
+                "Finding LCD",
+                "Multiplication and division"
+              ],
+              "worked_examples": 8,
+              "practice_problems": 20,
+              "difficulty": "core"
+            }
+          ],
+          "key_formulas": [],
+          "common_mistakes": [
+            "Cancelling terms instead of factors",
+            "Forgetting to factorise before simplifying"
+          ],
+          "exam_tips": [
+            "Always factorise completely before cancelling",
+            "Find the LCD for addition/subtraction"
+          ]
+        }
+      ],
+
+      "unit_summary": {
+        "key_concepts": ["Expansion", "Factorisation", "Simplification"],
+        "revision_checklist": [
+          "Can you expand any binomial product?",
+          "Can you factorise trinomials?",
+          "Can you simplify algebraic fractions?"
+        ]
+      },
+
+      "practice_test": {
+        "questions": 20,
+        "time_limit_minutes": 60,
+        "marks": 50,
+        "memo_included": true
+      }
+    },
+    {
+      "unit_number": 2,
+      "title": "Exponents",
+      "caps_reference": "CAPS-MATH-10-T1-U2",
+      "duration_weeks": 2,
+      "estimated_hours": 9,
+
+      "topics": [
+        {
+          "topic_id": "exp-01",
+          "title": "Laws of Exponents",
+          "week": 4,
+          "hours": 4.5,
+          "content_sections": [
+            {
+              "section": "4.1",
+              "title": "Revision of Exponent Laws",
+              "concepts": [
+                "Product rule: aᵐ × aⁿ = aᵐ⁺ⁿ",
+                "Quotient rule: aᵐ ÷ aⁿ = aᵐ⁻ⁿ",
+                "Power rule: (aᵐ)ⁿ = aᵐⁿ",
+                "Zero and negative exponents"
+              ],
+              "worked_examples": 6,
+              "practice_problems": 20,
+              "difficulty": "foundation"
+            },
+            {
+              "section": "4.2",
+              "title": "Simplifying Exponential Expressions",
+              "concepts": [
+                "Combining exponent laws",
+                "Working with multiple bases"
+              ],
+              "worked_examples": 8,
+              "practice_problems": 25,
+              "difficulty": "core"
+            }
+          ],
+          "key_formulas": [
+            "aᵐ × aⁿ = aᵐ⁺ⁿ",
+            "aᵐ ÷ aⁿ = aᵐ⁻ⁿ",
+            "(aᵐ)ⁿ = aᵐⁿ",
+            "a⁰ = 1",
+            "a⁻ⁿ = 1/aⁿ"
+          ],
+          "common_mistakes": [
+            "Adding exponents when multiplying different bases",
+            "Forgetting that a⁰ = 1 (not 0)"
+          ],
+          "exam_tips": [
+            "Convert all expressions to the same base when possible",
+            "Watch out for negative exponents"
+          ]
+        },
+        {
+          "topic_id": "exp-02",
+          "title": "Rational Exponents",
+          "week": 5,
+          "hours": 4.5,
+          "content_sections": [
+            {
+              "section": "5.1",
+              "title": "Understanding Rational Exponents",
+              "concepts": [
+                "a^(1/n) = ⁿ√a",
+                "a^(m/n) = ⁿ√(aᵐ)",
+                "Converting between radicals and exponents"
+              ],
+              "worked_examples": 5,
+              "practice_problems": 15,
+              "difficulty": "core"
+            },
+            {
+              "section": "5.2",
+              "title": "Simplifying with Rational Exponents",
+              "concepts": [
+                "Combining rational and integer exponents",
+                "Simplifying radical expressions"
+              ],
+              "worked_examples": 7,
+              "practice_problems": 20,
+              "difficulty": "extended"
+            }
+          ],
+          "key_formulas": [
+            "a^(1/n) = ⁿ√a",
+            "a^(m/n) = ⁿ√(aᵐ) = (ⁿ√a)ᵐ"
+          ],
+          "common_mistakes": [
+            "Confusing a^(1/2) with a/2",
+            "Not simplifying radicals completely"
+          ],
+          "exam_tips": [
+            "Convert radicals to exponents for easier manipulation",
+            "Check your answer by converting back"
+          ]
+        }
+      ],
+
+      "unit_summary": {
+        "key_concepts": ["Exponent laws", "Rational exponents", "Simplification"],
+        "revision_checklist": [
+          "Can you apply all exponent laws?",
+          "Can you work with rational exponents?",
+          "Can you simplify complex exponential expressions?"
+        ]
+      },
+
+      "practice_test": {
+        "questions": 15,
+        "time_limit_minutes": 45,
+        "marks": 40,
+        "memo_included": true
+      }
+    }
+  ],
+
+  "term_exam_prep": {
+    "exam_format": {
+      "paper_1": {
+        "duration_hours": 2,
+        "total_marks": 100,
+        "sections": [
+          {"name": "Section A", "marks": 30, "type": "Short questions"},
+          {"name": "Section B", "marks": 70, "type": "Long questions"}
+        ]
+      }
+    },
+    "topic_weighting": {
+      "Algebraic Expressions": "25%",
+      "Exponents": "20%",
+      "Number Patterns": "15%",
+      "Equations & Inequalities": "25%",
+      "Trigonometry": "15%"
+    },
+    "past_paper_references": [
+      "2024 June Paper 1 Q1-3",
+      "2023 June Paper 1 Q1-4"
+    ]
+  },
+
+  "resources": {
+    "pdf_guide": "s3://ruta-content/math-gr10-t1-2025.pdf",
+    "answer_key": "s3://ruta-content/math-gr10-t1-2025-answers.pdf",
+    "formula_sheet": "s3://ruta-content/math-gr10-formula-sheet.pdf"
+  }
+}
